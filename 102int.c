@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdint.h>
 
 int main() {
   int a = 10;			/* int 4byte */
@@ -27,3 +28,4 @@ int main() {
   return 0;
 }
 /* 问题：不支持C11，怎么指定编译器版本？ */
+/* 原因：未引入#include <stdint.h> */
